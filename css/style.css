@@ -1,0 +1,200 @@
+*{box-sizing: border-box;}
+html{
+    scroll-behavior: smooth;
+}
+
+.body{
+	background-color: black;
+}
+
+.bg-customcolor{
+	background-color:rgba(43 41 58) !important;
+}
+a.text-customcolor img{
+	max-height: 50px;
+}
+.text-customcolor{
+	color: #ffffff !important;
+}
+.text-customcolor li a:hover{
+	color: gold !important;
+}
+.text-customcolor li a{
+	color: #ffffff !important;
+}
+.bg-customcolor a.custom-hover:hover{
+	background-color: green !important;
+}
+.navbar-brand h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+}
+.header{
+    z-index: 99;
+}
+.hello {
+    background: #0fa590;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+.hover:hover{
+    color: gold;
+}
+
+
+.banner-img{
+	background: linear-gradient(rgba(59, 58, 58, 0.9), rgba(0, 0, 0, 0.9)), url(../img/banner1.jpg);
+	background-size: cover;
+    background-position: center;
+    color: #e7e7e8 !important;
+    min-height: 600px;
+    position: relative;
+}
+.intro-pic-border {
+    max-height: 400px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.intro-pic-border img{
+    border: 15px solid #ccc;
+    border-radius: 50%;
+}
+.intro{
+	padding-top: 150px !important;
+}
+.intro-text{
+	padding-top: 100px;
+
+}
+.intro-text a {
+    text-decoration: none;
+    color: white;
+}
+.intro-text ul li{
+    padding-top: 8px;
+}
+.name-text{
+    padding-top: 20px;
+}
+.social a {
+    padding-right: 10px;
+    color: cyan;
+    font-size: 20px;
+}
+
+.main-photo{
+	max-width: 400px;
+	max-height: auto;
+	border: 15px solid white;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.aboutme {
+    background-color: #100e17;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+.about-text h2{
+	padding-bottom: 10px;
+}
+.about-text hp{
+	color: darkgray;
+}
+.about-good-text{
+	color: #ffb734;
+}
+
+/* Text Box Section */
+
+.whatdo {
+    background: #0c1714;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.whatdo h1{
+	padding-bottom: 20px;
+}
+.text-box {
+    margin: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 280px;
+    background: #1e282c;
+}
+.text-box h2{
+	color: #df9bd3;
+}
+
+/* Education part started */
+
+.education {
+    background: #0c1714;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box{
+	min-height: 340px;
+}
+.box-title{
+	inline-size: auto;
+    font-weight: normal;
+}
+.box-text {
+    padding-left: 45px;
+    display: block;
+}
+
+.footer {
+    background-color: currentcolor;
+}
+.footer-text{
+	padding-top: 23px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact {
+    background-color: #04040f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact-text{
+	padding-bottom: 30px;
+}
+.message{
+	padding-bottom: 20px;
+}
+.gallery {
+    background: #0c1714;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.gallery-box {
+    margin: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+    height: 280px;
+    background: #1e282c;
+}
+.gallery-box img{
+	min-height: 150px;
+}
+.gallery-box h2{
+	color: #df9bd3;
+}
+.form-control{
+    background-color: transparent!important;
+    color: white!important;
+}
